@@ -4,7 +4,7 @@ import urllib2
 import os
 import mx.DateTime as dt
 
-chunks = 12 #no of months to get in one go (maximum is 12)
+chunks = 6 #no of months to get in one go (maximum is 12)
 now = dt.now() - 1
 
 airportcodes = ["EGPB"]
